@@ -2,3 +2,16 @@ body {
   background-image: url("bagel.jpg");
   background-size: cover;
 }
+.btn-img {
+  width: 150px;        /* or remove for original size */
+  cursor: pointer;
+  transition: transform 0.2 ease;
+}
+
+.btn-img:hover {
+  transform: scale(1.1);
+}
+
+.btn-img:active {
+  transform: scale(0.95);
+}
